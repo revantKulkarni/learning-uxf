@@ -1,0 +1,59 @@
+// @import url('https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css');
+
+body {
+  font-family:'Montserrat', sans-serif !important;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem;
+  cursor: pointer;
+}
+
+.now-title{
+  text-align: center;
+}
+
+.table-container{
+  position: relative;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0.5rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+th {
+  position: sticky;
+  top: 0;
+  background: #51c4d3;
+  text-align: left;
+  font-weight :bold;
+  color: white;
+  position: relative;
+}
+
+th:last-child {
+  border: 0;
+}
+
+td {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #1b2021;
+  text-align: justify;
+}
+
+tr:nth-child(even) {
+  background: #e4fbff;
+}
+
+.btnStyle {
+  padding-right: 5px;
+}
+
